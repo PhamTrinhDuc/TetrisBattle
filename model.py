@@ -81,7 +81,7 @@ class TetrisAgent:
         self.eps = self.eps_start
         self.steps_done = 0
         
-    def select_action(self, state):
+    def choose_action(self, state):
         if random.random() > self.eps:
             with torch.no_grad():
                 q_values = self.policy_net(state.to(self.device))

@@ -1,4 +1,4 @@
-from TetrisBattle.envs.tetris_single_env import TetrisSingleEnv
+from TetrisBattle.envs.tetris_env import TetrisSingleEnv
 
 
 if __name__ == "__main__":
